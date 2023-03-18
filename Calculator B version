@@ -144,6 +144,6 @@ void Step ()
     Console.WriteLine("Введите степень");
     int secondNumber = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine($"Число {firstNumber} возведённое в степень {secondNumber} = " + Math.Pow(firstNumber,secondNumber));
+    Console.WriteLine($"Число {firstNumber} возведённое в степень {secondNumber} равняется " + Math.Pow(firstNumber,secondNumber));
 
 }
