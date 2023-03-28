@@ -2,6 +2,10 @@
 
 
 
+//В войдах можно убрать результат и сократить строчки, но пока мне лень
+
+
+
 Menu();
 
  
@@ -71,11 +75,11 @@ void Menu()
 void Addition ()
 {
     Console.WriteLine("Введите первое число");
-    int firstNumber = Convert.ToInt32(Console.ReadLine());
+    double firstNumber = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine("Введите второе число");
-    int secondNumber = Convert.ToInt32(Console.ReadLine());
+    double secondNumber = Convert.ToDouble(Console.ReadLine());
 
-    int result = firstNumber + secondNumber;
+    double result = firstNumber + secondNumber;
 
     Console.WriteLine($"Сумма числа {firstNumber} c числом {secondNumber} равняется {result}");
     
@@ -86,11 +90,11 @@ void Minus()
 {
 
     Console.WriteLine("Введите первое число");
-    int firstNumber = Convert.ToInt32(Console.ReadLine());
+    double firstNumber = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine("Введите второе число");
-    int secondNumber = Convert.ToInt32(Console.ReadLine());
+   double secondNumber = Convert.ToDouble(Console.ReadLine());
 
-    int result = firstNumber - secondNumber;
+    double result = firstNumber - secondNumber;
 
    
 
@@ -101,11 +105,11 @@ void Minus()
 void Um()
 {
 Console.WriteLine("Введите первое число");
-    int firstNumber = Convert.ToInt32(Console.ReadLine());
+    double firstNumber = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine("Введите второе число");
-    int secondNumber = Convert.ToInt32(Console.ReadLine());
+   double secondNumber = Convert.ToDouble(Console.ReadLine());
 
-    int result = firstNumber * secondNumber;
+    double result = firstNumber * secondNumber;
 
     Console.WriteLine($"Умножение числа {firstNumber} и числа {secondNumber} равняется {result}");
 
@@ -116,9 +120,9 @@ void Del()
 {
 
     Console.WriteLine("Введите первое число");
-     double firstNumber = Convert.ToInt32(Console.ReadLine());
+     double firstNumber = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine("Введите второе число");
-    double secondNumber = Convert.ToInt32(Console.ReadLine());
+    double secondNumber = Convert.ToDouble(Console.ReadLine());
 
     if(secondNumber == 0)
     {
@@ -147,3 +151,4 @@ void Step ()
     Console.WriteLine($"Число {firstNumber} возведённое в степень {secondNumber} равняется " + Math.Pow(firstNumber,secondNumber));
 
 }
+
